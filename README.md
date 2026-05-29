@@ -27,6 +27,10 @@ ADMIN_PASS=haslo123
 
 
 ## Budowanie
+git clone https://github.com/bartlomiejolewinski/docker_zaliczenie.git
+
+cd docker_zaliczenie (trzeba jeszcze utworzyć plik .env zgodnie z punktem wyżej) 
+
 docker compose up -d --build
 
 Główny moduł http://localhost/main
