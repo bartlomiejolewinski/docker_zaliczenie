@@ -17,7 +17,7 @@ Główna aplikacja w osobnym kontenerze, chroniona tokenem JWT
 Kontenery bazują na obrazach alpine
 
 ## Konfiguracja
-Przed startem należy utworzyć w głownym folderze plik .env z danymi jak: 
+Przed startem należy utworzyć w głownym folderze plik .env z danymi jak przykład: 
 
 SECRET_KEY=super_tajny_klucz_jwt
 
